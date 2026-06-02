@@ -2,62 +2,104 @@
 
 ### T-Shaped Developer & Researcher | AI & Manufatura Generativa | Propriedade Intelectual
 
-Sou um desenvolvedor e pesquisador com atuação focada em **arquitetura de soluções orientadas a dados**, **manufatura aditiva/generativa** e **ambientes de inovação**. Minha jornada combina o desenvolvimento de software de alta especialização técnica (Deep Learning e Computação Gráfica) com uma visão estratégica de negócios e proteção de ativos tecnológicos.
+Sou um desenvolvedor e pesquisador atuando na interseção entre **Inteligência Artificial**, **Computação Gráfica** e **Manufatura Aditiva/Generativa**. Meu trabalho combina engenharia de software de alta especialização com estratégia de inovação, modelagem de negócios e proteção de ativos tecnológicos (patentes).
+
+---
+
+> [!NOTE]
+> **Sobre o meu portfólio no GitHub**:
+> Grande parte das soluções industriais, modelos de visão computacional e integradores de hardware que desenvolvo ativamente estão hospedados em **repositórios privados corporativos** ou protegidos sob acordos de confidencialidade (NDA) e segredo industrial. Neste perfil público, compartilho ferramentas utilitárias, frameworks de código aberto, projetos acadêmicos e estudos científicos.
 
 ---
 
 ## 🧭 O Perfil T-Shaped
 
-O conceito T-Shaped reflete minha capacidade de transitar de forma horizontal na gestão da inovação e proteção intelectual, enquanto aprofundo verticalmente na integração de IA com manufatura física.
+Minha atuação é baseada em uma ampla base de conhecimentos em inovação e PI (eixo horizontal), sustentada por uma profunda especialização técnica em desenvolvimento de software e manufatura (eixo vertical).
 
+```mermaid
+flowchart TD
+    %% T-Shape Definition
+    subgraph Horizontal ["Conhecimento Horizontal (Generalista & Negócios)"]
+        direction LR
+        A["Gestão de Inovação"] --- B["Mentoria de Startups"]
+        B --- C["Estratégia de Propriedade Intelectual"]
+        C --- D["Busca de Anterioridade & Patentes (INPI)"]
+    end
+    
+    subgraph Vertical ["Especialidade Vertical (Profundo & Técnico)"]
+        direction TB
+        E["Deep Learning & Visão Computacional"]
+        F["Computação Gráfica, Visualização & G-Code"]
+        G["Integração de Hardware (RUIDA & CNC)"]
+        H["Manufatura Generativa & Prototipagem Rápida"]
+    end
+    
+    Horizontal ==> Vertical
+
+    style Horizontal fill:#1e1e2e,stroke:#89b4fa,stroke-width:2px,color:#cdd6f4
+    style Vertical fill:#11111b,stroke:#f38ba8,stroke-width:2px,color:#cdd6f4
 ```
-       M E N T O R I A   D E   S T A R T U P S   |   P R O S P E C Ç Ã O   T E C N O L Ó G I C A   |   P R O P R I E D A D E   I N T E L E C T U A L
-  ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-  │   Arquitetura de Soluções  │  Estratégia de Negócios  │  Busca de Anterioridades INPI │  Redação de Patentes  │  Gestão de Hubs de Inovação  │
-  └────────────────────────────┬──────────────────────────┬───────────────────────────────┬───────────────────────┬──────────────────────────────┘
-                               │
-                               │  ► DEEP LEARNING & VISÃO COMPUTACIONAL
-                               │    Processamento de imagem e reconhecimento de padrões aplicados à manufatura.
-                               │
-                               │  ► COMPUTAÇÃO GRÁFICA & MODELAGEM 3D
-                               │    Desenvolvimento de visualizadores, manipulação vetorial e G-code.
-                               │
-                               │  ► INTEGRAÇÃO DE HARDWARE (RUIDA & CNC)
-                               │    Conexão direta de modelos de linguagem (LLMs) com controladoras industriais.
-                               │
-                               │  ► MANUFATURA GENERATIVA
-                               │    Design híbrido homem-máquina para acelerar a materialização de ideias de produto.
-                               ▼
+
+---
+
+## 📅 Foco e Linha Temporal de Desenvolvimento
+
+Abaixo está o mapeamento cronológico de onde concentrei meus principais esforços de pesquisa e desenvolvimento nos últimos meses:
+
+```mermaid
+gantt
+    title Linha Temporal de Foco (Últimos Meses)
+    dateFormat  YYYY-MM
+    axisFormat  %b %Y
+    
+    section Inteligência Artificial & RAG
+    Agentes Inteligentes & LLMs Locais (Ollama/Gemini)   :active, 2025-11, 2026-06
+    Bancos de Vetores & Busca Semântica (pgvector)       : 2025-12, 2026-04
+    
+    section Computação Gráfica & Física
+    Simulação de Spacetime & Física Relativística (C++)    : 2025-09, 2026-02
+    Processamento de Imagens, Vetores & G-Code          : 2025-11, 2026-05
+    
+    section Arquitetura de Software
+    Interfaces de Usuário Cross-Platform (Flutter/Dart)   : 2025-12, 2026-06
+    Backends Corporativos & Integração (Spring Boot)      : 2025-08, 2026-03
 ```
 
 ---
 
-## 🚀 Principais Conquistas & Impacto
+## 🚀 Impacto & Resultados de Pesquisa
 
-*   **Mentoria e Internacionalização**: Apoiei a orientação estratégica de **4 startups**, levando uma delas ao mercado internacional.
-*   **Gestão e Prototipagem**: Prototipei **mais de 30 projetos físicos/digitais em 18 meses** dentro do hub de base tecnológica de uma Universidade Federal.
-*   **Desenvolvimento de Software**: Criei **4 sistemas completos** voltados para gestão de inovação, ambientes maker e integração industrial.
-*   **Inovação Pioneira (Híbrido Humano-Máquina)**: Desenvolvi o primeiro modelo de linguagem especializado em modelagem 3D integrado a controladoras **RUIDA** e geração de **G-code**, otimizando o fluxo de manufatura generativa e reduzindo drasticamente o tempo entre ideia e produto físico.
-
----
-
-## 🛠️ Stack Tecnológica
-
-| Especialidade | Tecnologias e Ferramentas |
-| :--- | :--- |
-| **Inteligência Artificial** | Deep Learning, Visão Computacional, LLMs integrados (Ollama, Gemini API, PyTorch) |
-| **Gráficos & Manufatura** | G-Code, Controladoras RUIDA (Laser CO2/CNC), Computação Gráfica (OpenGL, Three.js, Flutter Canvas) |
-| **Backend & Integração** | Java (Spring Boot), Python (FastAPI, Flask, Scripting), Node.js, C++ |
-| **Gestão & PI** | Prospecção Tecnológica, Redação de Patentes (INPI), Análise de Negócio e Validação de Produto |
+*   **Ambientes de Inovação**: Prototipei mais de **30 projetos** físicos/digitais em 18 meses atuando em hub de base tecnológica universitário.
+*   **Apoio ao Ecossistema**: Orientei e mentorei estrategicamente **4 startups** (sendo uma delas internacionalizada).
+*   **Sistemas Próprios**: Desenvolvi **4 ferramentas de software** dedicadas a ambientes maker e gestão integrada de ecossistemas de inovação.
+*   **Interface Homem-Máquina**: Pesquisa focada no uso experimental de modelos de linguagem (LLMs) para facilitar a geração de arquivos vetoriais, tradução para G-code e envio direto a controladoras de gravação/corte a laser (como RUIDA), reduzindo o atrito na materialização física de ideias.
 
 ---
 
-## 💡 Propósito
+## 🛠️ Stack Tecnológica & Ferramentas
 
-Atuar no gargalo estrutural da inovação nacional: a **materialização de ideias**. Meu objetivo é encurtar o caminho entre a concepção acadêmica/conceitual e o mercado industrial real, protegendo os ativos de propriedade intelectual (PI) e mitigando riscos técnicos, jurídicos e mercadológicos.
+### Linguagens e Frameworks
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+
+### Tecnologias e Infraestrutura
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
-📬 **Contato e Conexões**:
+## 💡 Missão e Visão de PI
+
+O maior gargalo do ciclo de inovação nacional é a **materialização prática de conceitos**. Busco mitigar esse obstáculo aproximando as ferramentas de modelagem da manufatura física e apoiando inventores na prospecção de anterioridades e redação técnica de patentes junto ao INPI. Isso diminui incertezas e acelera a validação e o registro de novos negócios.
+
+---
+
+📬 **Contato**:
 *   **E-mail**: rafaelpassosdomingues@gmail.com
 *   **GitHub**: [@passosdomingues](https://github.com/passosdomingues)
